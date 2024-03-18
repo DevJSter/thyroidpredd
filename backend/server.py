@@ -11,7 +11,7 @@ import pickle
 
 app = Flask(__name__)
 
-thyroid_model = pickle.load(open('/model.sav', 'rb'))
+thyroid_model = pickle.load(open('./model.sav', 'rb'))
 
 
 @app.route('/thyroidpredict', methods=['POST'])
