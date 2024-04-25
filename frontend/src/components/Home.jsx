@@ -64,7 +64,7 @@ const Home = () => {
 						<div className={styles.rightHero}>
 							<img
 								src='https://images.indianexpress.com/2023/02/thyroid-1.jpg'
-								alt='Image'
+								alt=''
 								onError={(e) => {
 									e.target.src = modelImage;
 								}}
