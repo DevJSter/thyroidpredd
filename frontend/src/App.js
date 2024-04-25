@@ -13,11 +13,6 @@ import Thyroid from './components/Prediction';
 import Footer from './components/Footer';
 import AwareNess from './components/AwareNess';
 
-// import Resources from "./components/Resources"; // Import Resources component
-// import AddJobForm from "./components/AddJobForm"; // Import AddJobForm component
-// import NotFound from "./components/NotFound"; // Import NotFound component
-// import RecentJobs from "./components/RecentJobs"; // Import RecentJobs component
-
 const App = () => {
 	return (
 		<>
